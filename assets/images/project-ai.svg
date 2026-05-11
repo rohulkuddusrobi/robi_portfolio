@@ -1,0 +1,20 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0F19" />
+      <stop offset="1" stop-color="#1F2A44" />
+    </linearGradient>
+    <linearGradient id="accent" x1="90" y1="80" x2="540" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#bg)" />
+  <rect x="60" y="70" width="520" height="220" rx="24" fill="rgba(17, 24, 39, 0.7)" stroke="rgba(255, 255, 255, 0.15)" />
+  <circle cx="190" cy="180" r="60" fill="url(#accent)" />
+  <rect x="270" y="120" width="250" height="18" rx="9" fill="#D1D5DB" opacity="0.7" />
+  <rect x="270" y="160" width="200" height="12" rx="6" fill="#9CA3AF" opacity="0.7" />
+  <rect x="270" y="190" width="180" height="12" rx="6" fill="#9CA3AF" opacity="0.6" />
+  <rect x="270" y="220" width="220" height="12" rx="6" fill="#9CA3AF" opacity="0.5" />
+  <text x="70" y="320" fill="#D1D5DB" font-family="Poppins, sans-serif" font-size="18">AI Student Assistant</text>
+</svg>

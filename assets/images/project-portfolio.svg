@@ -1,0 +1,20 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0F19" />
+      <stop offset="1" stop-color="#1A243B" />
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="60" x2="560" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06B6D4" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#bg)" />
+  <rect x="70" y="70" width="500" height="220" rx="20" fill="rgba(17, 24, 39, 0.7)" stroke="rgba(255, 255, 255, 0.15)" />
+  <rect x="90" y="100" width="200" height="12" rx="6" fill="#D1D5DB" opacity="0.8" />
+  <rect x="90" y="130" width="160" height="10" rx="5" fill="#9CA3AF" opacity="0.7" />
+  <rect x="90" y="160" width="230" height="10" rx="5" fill="#9CA3AF" opacity="0.6" />
+  <rect x="90" y="190" width="190" height="10" rx="5" fill="#9CA3AF" opacity="0.5" />
+  <rect x="350" y="120" width="190" height="120" rx="18" fill="url(#accent)" />
+  <text x="70" y="320" fill="#D1D5DB" font-family="Poppins, sans-serif" font-size="18">Modern Portfolio Website</text>
+</svg>

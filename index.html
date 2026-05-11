@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rohul Kuddus Robi | Futuristic Portfolio</title>
+  <meta name="description" content="Premium futuristic portfolio for a Computer Science student and future AI/Web developer." />
+  <meta name="theme-color" content="#0B0F19" />
+
+  <meta property="og:title" content="Rohul Kuddus Robi | Futuristic Portfolio" />
+  <meta property="og:description" content="Premium futuristic portfolio for a Computer Science student and future AI/Web developer." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/og-cover.svg" />
+
+  <link rel="icon" href="assets/images/og-cover.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="dark">
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="loader">
+      <span class="loader-ring"></span>
+      <span class="loader-ring"></span>
+      <span class="loader-ring"></span>
+    </div>
+    <p class="loader-text">Initializing portfolio</p>
+  </div>
+
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="header">
+    <nav class="navbar container" aria-label="Primary">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">RK</span>
+        <span class="brand-text">Rohul Kuddus Robi</span>
+      </a>
+
+      <div class="nav-links" id="nav-menu">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle theme">
+          <span class="theme-icon"></span>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="glow glow-1"></span>
+        <span class="glow glow-2"></span>
+        <span class="glow glow-3"></span>
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+        <span class="particle p1"></span>
+        <span class="particle p2"></span>
+        <span class="particle p3"></span>
+        <span class="particle p4"></span>
+        <span class="particle p5"></span>
+        <span class="particle p6"></span>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hello, I am</p>
+          <h1 class="hero-title">
+            <span class="hero-name">Rohul Kuddus Robi</span>
+            <span class="hero-typing"><span class="typing" data-words="AI Developer, Automation Engineer, Creative Technologist"></span></span>
+          </h1>
+          <p class="hero-subtitle">
+            Computer Science student focused on AI Automation, smart systems, and high-performance web applications for the next generation.
+
+          </p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="assets/resume/Resume.pdf" download>Download CV</a>
+          </div>
+          <div class="socials" aria-label="Social links">
+            <a class="social-link" href="https://www.facebook.com/rk.robi11" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6c1.05 0 2.05.2 2.05.2v2.24h-1.16c-1.14 0-1.39.71-1.39 1.35V12h2.5l-.4 3h-2.1v6.8C18.56 20.87 22 16.84 22 12z" />
+              </svg>
+            </a>
+            <a class="social-link" href="https://github.com/rohulkuddusrobi" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M12 2C6.48 2 2 6.5 2 12.06c0 4.45 2.87 8.22 6.84 9.56.5.1.68-.22.68-.48 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.52 1.04 1.52 1.04.88 1.53 2.31 1.09 2.88.83.09-.65.35-1.09.63-1.34-2.22-.26-4.56-1.12-4.56-5 0-1.1.39-2 1.03-2.7-.1-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.03.8-.23 1.66-.35 2.52-.35s1.72.12 2.52.35c1.9-1.3 2.74-1.03 2.74-1.03.56 1.42.21 2.46.11 2.72.64.7 1.02 1.6 1.02 2.7 0 3.89-2.34 4.73-4.57 4.98.36.31.69.92.69 1.86 0 1.34-.01 2.42-.01 2.75 0 .27.18.59.69.49 3.97-1.34 6.84-5.11 6.84-9.56C22 6.5 17.52 2 12 2z" />
+              </svg>
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/in/rk-robi-691517211/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zm7 0h3.8v2h.05c.53-.96 1.82-1.97 3.75-1.97 4 0 4.74 2.64 4.74 6.07V23h-4v-6.6c0-1.57-.03-3.6-2.2-3.6-2.2 0-2.53 1.72-2.53 3.5V23h-4V8.5z" />
+              </svg>
+            </a>
+            <a class="social-link" href="mailto:rohulkuddusrobi@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M2 4h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v.5l10 6.25L22 6.5V6H2zm0 2.75V18h20V8.75l-10 6.25-10-6.25z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card glass reveal">
+          <div class="hero-image">
+            <img src="assets/images/profile.png" alt="Profile placeholder" loading="lazy" />
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number" data-target="12">0</span>
+              <span class="stat-label">Projects built</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="4">0</span>
+              <span class="stat-label">AI prototypes</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="2">0</span>
+              <span class="stat-label">Years learning</span>
+            </div>
+          </div>
+          <div class="availability">
+            <span class="pulse"></span>
+            Open for internships and collaborations
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Building the future with code, creativity, and curiosity</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card glass reveal">
+            <h3>My story</h3>
+            <p>
+              My journey started with curiosity about technology and how intelligent systems can solve real-world problems. As a Computer Science student, I focus on AI Automation, AI Engineering, and modern web development. I enjoy building smart solutions, experimenting with new technologies, and creating digital products that feel both powerful and user-friendly.
+            </p>
+            <p>
+              I’m constantly learning, building, and improving — turning ideas into scalable systems and modern experiences for the future.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight">AI and web fusion</div>
+              <div class="highlight">Product-minded developer</div>
+              <div class="highlight">Automation engineering</div>
+            </div>
+          </div>
+          <div class="about-card glass reveal">
+            <h3>What drives me</h3>
+            <p>
+              I aim to build products that feel premium, futuristic, and deeply human. My goal is to join a forward-thinking team where I can shape
+              AI-assisted experiences and ship high-impact web applications.
+            </p>
+            <ul class="about-list">
+              <li>Exploring generative AI and applied machine learning.</li>
+              <li>Creating smooth, accessible, and responsive UIs.</li>
+              <li>Designing scalable systems with strong engineering fundamentals.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and technologies shaping my stack</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card glass reveal">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Responsive Design</li>
+              <li>UI Development</li>
+            </ul>
+            <div class="skill-progress">
+              <span>Interface Crafting</span>
+              <div class="progress"><span style="width: 92%"></span></div>
+            </div>
+          </article>
+          <article class="skill-card glass reveal">
+            <h3>Backend</h3>
+            <ul>
+              <li>Python</li>
+              <li>Django</li>
+              <li>REST APIs</li>
+              <li>Authentication</li>
+              <li>Deployment</li>
+            </ul>
+            <div class="skill-progress">
+              <span>API Engineering</span>
+              <div class="progress"><span style="width: 74%"></span></div>
+            </div>
+          </article>
+          <article class="skill-card glass reveal">
+            <h3>Database</h3>
+            <ul>
+              <li>MySQL</li>
+              <li>SQLite</li>
+              <li>Data Management</li>
+            </ul>
+            <div class="skill-progress">
+              <span>Data Foundations</span>
+              <div class="progress"><span style="width: 78%"></span></div>
+            </div>
+          </article>
+          <article class="skill-card glass reveal">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+            </ul>
+            <div class="skill-progress">
+              <span>Workflow Efficiency</span>
+              <div class="progress"><span style="width: 66%"></span></div>
+            </div>
+          </article>
+          <article class="skill-card glass reveal">
+            <h3>AI/ML Learning</h3>
+            <ul>
+              <li>Python</li>
+              <li>OpenAI APIs</li>
+              <li>Prompt Engineering</li>
+              <li>Data Visualization</li>
+            </ul>
+            <div class="skill-progress">
+              <span>AI Exploration</span>
+              <div class="progress"><span style="width: 88%"></span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected builds with premium execution</h2>
+        </div>
+
+        <div class="project-filters" role="tablist" aria-label="Project filters">
+          <button class="filter-btn active" type="button" data-filter="all" role="tab">All</button>
+          <button class="filter-btn" type="button" data-filter="ai" role="tab">AI</button>
+          <button class="filter-btn" type="button" data-filter="web" role="tab">Web</button>
+          <button class="filter-btn" type="button" data-filter="app" role="tab">App</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card glass reveal" data-category="ai">
+            <div class="project-media">
+              <img src="assets/images/project-ai.svg" alt="AI Student Assistant preview" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>AI Student Assistant</h3>
+              <p>Conversational AI that organizes study plans, summarizes lectures, and tracks learning goals.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>OpenAI API</span>
+                <span>Node.js</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn btn-ghost" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn-primary" href="https://example.com" target="_blank" rel="noopener">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="app">
+            <div class="project-media">
+              <img src="assets/images/project-roulette.svg" alt="European Roulette Web App preview" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>European Roulette Web App</h3>
+              <p>Realistic casino simulator with probability insights, betting analytics, and smooth animations.</p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>Canvas</span>
+                <span>UI Motion</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn btn-ghost" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn-primary" href="https://example.com" target="_blank" rel="noopener">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="web">
+            <div class="project-media">
+              <img src="assets/images/project-portfolio.svg" alt="Modern Portfolio Website preview" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>Modern Portfolio Website</h3>
+              <p>Cinematic portfolio with glassmorphism, scroll reveals, and a design-first content flow.</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn btn-ghost" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn-primary" href="https://example.com" target="_blank" rel="noopener">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>My journey into AI and web engineering</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass">
+              <h3>BSc Computer Science</h3>
+              <p>Daffodil International University | 2023 - 2026</p>
+              <p>Specializing in AI systems, Machine Learning, and human-computer interaction.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass">
+              <h3>AI Product Builder</h3>
+              <p>Personal learning journey | 2025 - Present</p>
+              <p>Building AI prototypes, Automation workflows, and shipping web experiences.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass">
+              <h3>Certifications and goals</h3>
+              <p>Upcoming | 2026+</p>
+              <p>Cloud fundamentals, AI engineering, and advanced product design systems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let us build something extraordinary together</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card glass reveal">
+            <h3>Say hello</h3>
+            <p> Looking for AI Automation or AI Engineering solutions?
+Let’s build something smart together. Feel free to contact me.
+</p>
+            <div class="contact-details">
+              <div>
+                <span>Email</span>
+                <p>rohulkuddusrobi@gmail.com</p>
+              </div>
+              <div>
+                <span>Location</span>
+                <p>Remote, open to global opportunities</p>
+              </div>
+            </div>
+            <div class="socials">
+              <a class="social-link" href="https://github.com/rohulkuddusrobi" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M12 2C6.48 2 2 6.5 2 12.06c0 4.45 2.87 8.22 6.84 9.56.5.1.68-.22.68-.48 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.52 1.04 1.52 1.04.88 1.53 2.31 1.09 2.88.83.09-.65.35-1.09.63-1.34-2.22-.26-4.56-1.12-4.56-5 0-1.1.39-2 1.03-2.7-.1-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.03.8-.23 1.66-.35 2.52-.35s1.72.12 2.52.35c1.9-1.3 2.74-1.03 2.74-1.03.56 1.42.21 2.46.11 2.72.64.7 1.02 1.6 1.02 2.7 0 3.89-2.34 4.73-4.57 4.98.36.31.69.92.69 1.86 0 1.34-.01 2.42-.01 2.75 0 .27.18.59.69.49 3.97-1.34 6.84-5.11 6.84-9.56C22 6.5 17.52 2 12 2z" />
+                </svg>
+              </a>
+              <a class="social-link" href="https://www.linkedin.com/in/rk-robi-691517211/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zm7 0h3.8v2h.05c.53-.96 1.82-1.97 3.75-1.97 4 0 4.74 2.64 4.74 6.07V23h-4v-6.6c0-1.57-.03-3.6-2.2-3.6-2.2 0-2.53 1.72-2.53 3.5V23h-4V8.5z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form glass reveal" id="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="from_name" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="from_email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <span class="brand-mark">RK</span>
+          <span class="brand-text">Rohul Kuddus Robi</span>
+        </div>
+        <p>Designing premium web experiences and intelligent products for the next decade.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h4>Social</h4>
+        <a href="https://github.com/rohulkuddusrobi" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/rk-robi-691517211/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:rohulkuddusrobi@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>Copyright <span id="year"></span>. All rights reserved.</p>
+      <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">Top</button>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
